@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<!-- credit and thanks for basic styles and structures to Glitch,freecodecamp, and all the great community-->
+
+<html>
+   <head>
+      <title>Timestamp Microservice</title>
+      <link href="timestamp-style.css" rel="stylesheet" type="text/css">
+     <script src="/server.js" defer></script>
+   </head>
+
+   <body>
+     
+      <main class="container">
+        <header>
+        <h2>API Project: Timestamp Microservice</h2>
+        </header>
+        <br>
+        <section>
+        <br>To start, add this "/api/timestamp/" to this URL,  (click this button <button> <a href="/api/timestamp/" type="button" id="submit">Click for values!</a></button> for example) <br><br>
+          <h3>Choose from these for Examples!</h3>
+        <ul class="grid-container">
+          <li class="grid-item"><h4>Valid date: 2019-05-04</h4><br><button><a href="https://1fcc-timestamp-dcc.glitch.me/api/timestamp/2019-05-04" type="button" id="submit1">Click for the Date</a></button></li>
+          <li class="grid-item"><h4>Valid time: 1450137600</h4><br><button><a href="https://1fcc-timestamp-dcc.glitch.me/api/timestamp/1450137600" type="button" id="submit2">Click for the Time</a></button></li>
+          <li class="grid-item"><h4>Invalid date/time: knightswhosayneepbutton</h4><br><button><a href="https://1fcc-timestamp-dcc.glitch.me/api/timestamp//knightswhosayneep" type="button" id="submit3" >Click for invalid Time</a></button></li>
+          <li class="grid-item"><h4>Empty (As described above: /api/timestamp/:</h4> <br><button><a href="https://1fcc-timestamp-dcc.glitch.me/api/timestamp/">"Empty"</a></button></li>
+        </ul>   
+        </section>
+        <h3>When the input is valid, you'll see something like:</h3>
+        <section>
+        <p>
+          <code>{"unix":1451001600000, "utc":"Fri, 25 Dec 2015 00:00:00 GMT"}</code>
+        </p>
+          
+            </section>
+      </main>
+   </body>
+</html>
