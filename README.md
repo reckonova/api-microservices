@@ -6,7 +6,7 @@
 
 ¯\_(ツ)_/¯
 JK
-
+ITS A TIME MACHINE!!
 1. Look on the front page (.../index.html)
 2. Check out Example Usage 1,2,3,4
 3. Make your own attempts, if you dare 
