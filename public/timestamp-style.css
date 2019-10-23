@@ -1,0 +1,159 @@
+/* credit for basic styles to Glitch */
+
+body {
+	font-family: Arial;
+  font-size: 16px;
+	color: #222000;
+	background-color: #012321;
+	text-align: center;
+	line-height: 1.4em;
+  
+}
+
+h3 {
+  background-color: lightgrey;
+  padding: 2px 2px 2px 2px;
+  border: 1px solid black;
+}
+h4 {
+  background-color: lightgrey;
+  padding: 0px 0px 0px 2px;
+  border: 1px solid black;
+  font-size: 12px;
+  text-align: left;
+}
+.container {
+	padding: 5px;
+  margin: 3% 3% 3% 3%;
+  background-color: #ECEFF1;
+  max-width: 700px;
+  border: 1px solid black;
+}
+section {
+   background-color: #BBDEFB;
+  width:100%;
+}
+
+.grid-container {
+  display: grid;
+  grid-row-gap: 8px;
+  grid-template-columns: auto auto;
+  
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  background-color: #834e56;
+  font-size: 30px;
+  text-align: center;
+  width:auto;
+  max-width: 300px;
+  padding-bottom: 10px;
+}
+
+code {
+  font-family: monospace;
+  padding: 2px;
+  color: black;
+  background-color: #fff;
+}
+
+ol {
+	list-style-position: outside;
+  
+}
+
+ul {
+   position: relative;
+  text-align: justify;
+  margin: auto;
+}
+
+li {
+  
+  list-style-type: none;
+  width:300px;
+  
+}
+.user-stories li {
+  margin-bottom: 1em;
+}
+
+a {
+	color: #2574A9;
+}
+
+.index {
+  list-style-type: none;
+}
+button{
+  font-size: 12px;
+  font-weight:bold;
+  height:80px;
+  width:80px;
+  border-radius: 70px;
+  background-color: #E0F7FA;
+  border: 1px solid grey;
+  box-shadow: 2px 2px #0288D1;
+  
+}
+* {
+  box-sizing: border-box;
+}
+
+p {
+  max-width: 600px;
+}
+
+input {
+  display: block;
+ 
+  width: 100%;
+  border: 1px solid ;
+  border-radius: 3px;
+  font-size: 16px;
+}
+
+form {
+  margin-bottom: 25px;
+  background-color: #834e56;
+
+  width: 100%;
+  max-width: 340px;
+  border-radius: 5px;
+  margin: 20px;
+    border: 1px solid black;
+}
+
+input {
+  display: block;
+  margin-bottom: 10px;
+  padding: 5px;
+  width: 100%;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+  font-size: 16px;
+}
+
+input[type=submit] {
+  font-size: 16px;
+  border-radius: 3px;
+  background-color: #E4F1FE;
+  border: 1px solid grey;
+  box-shadow: 2px 2px #999;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #00fa9a;
+}
+
+code {
+  font-family: monospace;
+  font-size: 1.2em;
+  background-color: #616A6B;
+  padding: 2px;
+  border-radius: 5px;
+  color:white    
+}
